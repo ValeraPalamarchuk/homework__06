@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    border: 0;
+}
+
+table {
+    margin: 10px;
+}
+
+table img{
+    vertical-align: middle;
+}
