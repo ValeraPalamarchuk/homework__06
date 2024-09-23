@@ -8,9 +8,39 @@
 
 table {
     margin: 10px;
-    border:solid 1px black;
 }
 
-table img{
+.table__row,
+.table__col,
+.table {
+    border: 1px solid black;
+}
+
+table img {
     vertical-align: middle;
+}
+
+.table__col {
+    padding: 20px 25px;
+}
+
+.table__col--main {
+    background-color: white;
+}
+
+.table__col--additional {
+    background-color: yellow;
+}
+
+.table__col--secondary {
+    background-color: red;
+}
+
+.table__col--filled {
+    background-color: black;
+    color:white;
+}
+
+.table__col--unique {
+    background-color: blue;
 }
